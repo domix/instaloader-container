@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VER=4.4.1  && \
+VER=4.4.2  && \
   docker build -t domix/instaloader:latest \
     -t domix/instaloader:$VER . && \
   git release $VER && \
