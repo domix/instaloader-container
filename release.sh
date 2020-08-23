@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export VER=4.5
+export VER=4.5.1
 
 docker build --build-arg VER=$VER -t domix/instaloader:latest \
     -t domix/instaloader:$VER . && \
