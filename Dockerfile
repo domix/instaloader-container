@@ -1,4 +1,4 @@
-FROM python:3.10.0a6-slim-buster
+FROM python:3.10.0b2-slim-buster
 
 ARG VER
 
